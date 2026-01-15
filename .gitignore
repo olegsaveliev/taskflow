@@ -1,0 +1,75 @@
+# ================================
+# TaskFlow - Root .gitignore
+# ================================
+
+# ----- Dependencies -----
+node_modules/
+node_modules 2/
+
+# ----- Environment Variables (SECRETS!) -----
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# ----- Build Outputs -----
+dist/
+build/
+out/
+
+# ----- Logs -----
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ----- OS Files -----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ----- IDE / Editors -----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+*.sublime-workspace
+*.sublime-project
+
+# ----- Vite -----
+*.local
+.vite/
+
+# ----- Testing -----
+coverage/
+.nyc_output/
+*.lcov
+
+# ----- Docker (local volumes) -----
+postgres-data/
+redis-data/
+
+# ----- Temporary Files -----
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ----- Cursor IDE -----
+.cursor/
+
+# ----- Misc -----
+*.bak
+*.backup
+.cache/

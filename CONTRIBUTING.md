@@ -100,8 +100,8 @@ New to the project? Here's how to get started:
 1. **Fork the repository**
    ```bash
    # Click the "Fork" button on GitHub, then clone your fork
-   git clone https://github.com/YOUR_USERNAME/TaskFlow.git
-   cd TaskFlow
+   git clone https://github.com/olegsaveliev/taskflow.git
+   cd taskflow
    ```
 
 2. **Set up the development environment**
@@ -174,8 +174,8 @@ New to the project? Here's how to get started:
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/TaskFlow.git
-cd TaskFlow
+git clone https://github.com/olegsaveliev/taskflow.git
+cd taskflow
 
 # Set up database
 createdb taskflow

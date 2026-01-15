@@ -118,8 +118,8 @@ sudo apt-get install postgresql-14
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/TaskFlow.git
-cd TaskFlow
+git clone https://github.com/olegsaveliev/taskflow.git
+cd taskflow
 ```
 
 ### 2. Set Up the Database
